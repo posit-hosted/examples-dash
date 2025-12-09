@@ -137,7 +137,7 @@ graphs = [
         "All data is historical.",
         color="info",
     ),
-    dcc.Graph(id="stock-price-graph", animate=True),
+    dcc.Graph(id="stock-price-graph", animate=True, style={"height": "450px"},),
     dcc.Graph(
         id="stock-volume-graph",
         animate=True,
@@ -187,7 +187,6 @@ body_container = dbc.Container(
                         dbc.Col(
                             graphs,
                             md=8,
-                            style={"height": "450px"},
                         ),
                     ],
                 ),
