@@ -206,7 +206,7 @@ body_container = dbc.Container(
                             [
                                 dcc.Graph(
                                     id="scatter-plot",
-                                    style={"float": "left"},
+                                    style={"float": "left", "height": "450px"},
                                 ),
                             ]
                         ),
