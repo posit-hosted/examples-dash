@@ -137,10 +137,15 @@ graphs = [
         "All data is historical.",
         color="info",
     ),
-    dcc.Graph(id="stock-price-graph", animate=True, style={"height": "450px"},),
+    dcc.Graph(
+        id="stock-price-graph",
+        animate=True,
+        style={"height": "450px"},
+    ),
     dcc.Graph(
         id="stock-volume-graph",
         animate=True,
+        style={"height": "270px"},
     ),
 ]
 
