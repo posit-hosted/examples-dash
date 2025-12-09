@@ -187,6 +187,7 @@ body_container = dbc.Container(
                         dbc.Col(
                             graphs,
                             md=8,
+                            style={"height": "450px"},
                         ),
                     ],
                 ),
