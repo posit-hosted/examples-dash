@@ -145,7 +145,7 @@ graphs = [
     dcc.Graph(
         id="stock-volume-graph",
         animate=True,
-        style={"height": "270px"},
+        style={"height": "450px"},
     ),
 ]
 
