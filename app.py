@@ -137,10 +137,15 @@ graphs = [
         "All data is historical.",
         color="info",
     ),
-    dcc.Graph(id="stock-price-graph", animate=True),
+    dcc.Graph(
+        id="stock-price-graph",
+        animate=True,
+        style={"height": "450px"},
+    ),
     dcc.Graph(
         id="stock-volume-graph",
         animate=True,
+        style={"height": "450px"},
     ),
 ]
 
@@ -201,7 +206,7 @@ body_container = dbc.Container(
                             [
                                 dcc.Graph(
                                     id="scatter-plot",
-                                    style={"float": "left"},
+                                    style={"float": "left", "height": "450px"},
                                 ),
                             ]
                         ),
